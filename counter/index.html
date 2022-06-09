@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counter</title>
+    <style>
+        *{padding: 0;margin: 0;box-sizing: border-box;font-family: 'Courier New', Courier, monospace;font-size: large;}
+    body{
+        position: relative;
+        justify-content: center;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 200px;
+        height: 100vh;
+      background-color: blueviolet;
+        
+    }
+    #counter{
+        font-size: xx-large;
+        font-weight: 800;
+    }
+    .buttons{
+        padding: 30px;
+       
+        box-shadow: 2px 2px 2px black;
+        border-style: none;
+    }
+    button{
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    </style>
+    
+</head>
+<body>
+ <div class="container">
+     <div id="counter">0</div>
+     <div class="buttons">
+         <button id="increment">increment</button>
+         <button id="reset">reset</button>
+         <button id="decrement">decrement</button>
+
+
+     </div>
+ </div>
+    
+<script src="./app.js"></script>
+
+</body>
+</html>
